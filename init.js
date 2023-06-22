@@ -14,6 +14,8 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const ObjectId = Schema.ObjectId
 
+const CONNECTION_STRING = "mongodb://127.0.0.1:27017/textboard"
+
 const TITLE_MAX = 50
 const CONTENT_MAX = 1000
 
@@ -114,7 +116,7 @@ app.post('/:postId', (req, res) => {
     }
 })
 
-mongoose.connect('mongodb://127.0.0.1:27017/textboard').then(() => {
+mongoose.connect(CONNECTION_STRING).then(() => {
     app.listen(port, () => {
         console.log(`Example app listening on port ${port}`)
     })
