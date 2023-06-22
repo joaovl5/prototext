@@ -22,7 +22,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![GPL License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -39,14 +39,13 @@
   <p align="center">
     A small, pseudonymous textboard/forum!
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <!-- [ ] change links -->
     <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/joaovl5/prototext">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/joaovl5/prototext/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/joaovl5/prototext/issues">Request Feature</a>
   </p>
 </div>
 
@@ -83,9 +82,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Prototext Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Prototext is a minimalist textboard/forum with simple functions. You can create posts and reply to them with comments while maintaining *pseudonimity*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +93,6 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ### Built With
 
 <!-- [ ] FIX IMAGES / LINKS -->
-* [![Next][Next.js]][Next-url] 
 * [![Node][Node.js]][Node-url]
 * [![Express][Express.js]][Express-url]
 * [![Pug][Pug.js]][Pug-url]
@@ -118,10 +116,10 @@ These are the instructions on how to setup your own Prototext server.
 
 ### Installation
 
-<!-- [ ] Fix url here -->
+<!-- [X] Fix url here -->
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/joaovl5/prototext.git
    ```
 2. Install NPM packages
    ```sh
@@ -156,14 +154,13 @@ The forum consists of a series of posts, with comments each. Authors are pseudon
   - [ ] Automoderation (antispam, cooldown)
   - [ ] Manual moderation (through moderator accounts)
 - [ ] Better front-end
-    - [ ] Nested Feature
 
-<!-- [ ] Change link here -->
-Please go to [open issues](https://github.com/github_username/repo_name/issues) for proposing features and bug reports.
+<!-- [X] Change link here -->
+Please go to [open issues](https://github.com/joaovl5/prototext/issues) for proposing features and reporting bugs.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
+<!-- [ ] LICENSE -->
 ## License
 
 Distributed under the GPL License. See `LICENSE.txt` for more information.
@@ -175,8 +172,8 @@ Distributed under the GPL License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-<!-- [ ] CHANGE LINK  -->
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+<!-- [X] CHANGE LINK  -->
+Project Link: [https://github.com/joaovl5/prototext](https://github.com/joaovl5/prototext)
 Linkedin: 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -185,21 +182,29 @@ Linkedin:
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/joaovl5/prototext.svg?style=for-the-badge
+[contributors-url]: https://github.com/joaovl5/prototext/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/joaovl5/prototext.svg?style=for-the-badge
+[forks-url]: https://github.com/joaovl5/prototext/network/members
+[stars-shield]: https://img.shields.io/github/stars/joaovl5/prototext.svg?style=for-the-badge
+[stars-url]: https://github.com/joaovl5/prototext/stargazers
+[issues-shield]: https://img.shields.io/github/issues/joaovl5/prototext.svg?style=for-the-badge
+[issues-url]: https://github.com/joaovl5/prototext/issues
+[license-shield]: https://img.shields.io/github/license/joaovl5/prototext.svg?style=for-the-badge
+[license-url]: https://github.com/joaovl5/prototext/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/in/joaovieiral/
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Node.js]: https://img.shields.io/badge/node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=green
+[Express.js]: https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white
+[Express-url]: http://expressjs.com/
+[Pug.js]: https://img.shields.io/badge/pug-000000?style=for-the-badge&logo=pug&logoColor=red
+[Mongo.db]: https://img.shields.io/badge/mongodb-000000?style=for-the-badge&logo=mongodb&logoColor=green
+[Mongo-url]: https://www.mongodb.com/
+[Pug-url]: https://github.com/pugjs/pug
 [Next-url]: https://nextjs.org/
+[Node-url]: https://nodejs.org/en
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
