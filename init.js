@@ -14,7 +14,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const ObjectId = Schema.ObjectId
 
-const CONNECTION_STRING = "mongodb://127.0.0.1:27017/textboard"
+const CONNECTION_STRING = process.env.MONGO || "mongodb://127.0.0.1:27017/textboard"
 
 const TITLE_MAX = 50
 const CONTENT_MAX = 1000
