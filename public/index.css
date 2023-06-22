@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.3em;
+}
+
+ul {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margins */
+}
+
+ul li {
+    list-style-type:none;
+    border: 0px solid rgb(124, 124, 124);
+
+}
+
+ul li div {
+    border: 2px solid rgb(124, 124, 124);
+    padding: 1em 1em 1em 1em;
+}
+
+input {
+    margin: 0px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(124, 124, 124);
+    display: inline-block;
+}
+
+textarea { 
+    border: 2px solid rgb(124, 124, 124);
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+label {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+#title {
+    margin: 0;
+
+}
+
+#author { 
+
+}
+
+#content { 
+
+}

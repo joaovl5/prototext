@@ -1,0 +1,35 @@
+html
+  head
+    title
+        | Forum
+    link(rel="stylesheet", href="index.css")
+  body
+    a(href="/")
+      | back 
+    h1= post.title 
+    h4
+      | author:  
+      =post.author
+      |  at 
+      =post.date
+    p= post.content
+    hr
+    h3
+      | Comments
+    ul 
+      each comment in post.comments 
+        li
+          div 
+            h6#author
+              | author: 
+              = comment.author
+              |  at 
+              = comment.date
+            p=comment.content 
+    form(action="#", method="post") 
+      label(for="content")
+        | Text:
+      //- input(type="text", name="content")
+      textarea(name="content", maxlength=1000) 
+      input(type="submit", value="submit")
+    script(src="index.js") 

@@ -1,0 +1,33 @@
+html
+  head
+    title
+      | Forum
+    link(rel="stylesheet", href="index.css")
+  body
+    ul 
+      each msg in messages 
+        li
+          div
+            a(href=msg._id) 
+              h4#title=msg.title
+            h5#author
+              | author: 
+              = msg.author
+              |  at 
+              = msg.date
+            p#content=msg.content.length <= 50 ? msg.content : msg.content.substr(1,50) + "..."
+    hr
+    h3 
+      | New post
+    form(action="/", method="post") 
+      label(for="title")
+        | Title:
+      input(type="text", name="title", size=50)
+      br
+      label(for="content")
+        | Text:
+      //- text(type="textbox", name="content", size=1000)
+      textarea(name="content", maxlength=1000) 
+      br
+      input(type="submit", value="submit")
+    script(src="index.js") 
