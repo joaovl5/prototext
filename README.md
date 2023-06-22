@@ -41,7 +41,7 @@
     <br />
     <!-- [ ] change links -->
     <br />
-    <a href="https://github.com/joaovl5/prototext">View Demo</a>
+    <a href="https://prototext.adaptable.app/">View Demo</a>
     ·
     <a href="https://github.com/joaovl5/prototext/issues">Report Bug</a>
     ·
