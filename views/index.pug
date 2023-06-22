@@ -16,7 +16,7 @@ html
               |  at 
               = msg.date
               br
-              = "\n" + msg.comments.length + " comments"
+              = `${msg.comments.length} comments`
             p#content=msg.content.length <= 50 ? msg.content : msg.content.substr(1,50) + "..."
     hr
     h3 
