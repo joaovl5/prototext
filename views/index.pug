@@ -15,6 +15,8 @@ html
               = msg.author
               |  at 
               = msg.date
+              br
+              = `${msg.comments.length} comments`
             p#content=msg.content.length <= 50 ? msg.content : msg.content.substr(1,50) + "..."
     hr
     h3 
